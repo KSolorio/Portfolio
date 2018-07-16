@@ -4,33 +4,48 @@
 <head>
   <meta charset="UTF-8">
   <title >Karina</title>
+  <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
   <!--granim-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/granim/1.1.0/granim.min.js"></script>
+  <!--animate.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   
 </head>
 
 <body>
-    <div class="wrapper"><canvas id="gradcanvas" class="gradient">
-      </canvas>
+    <div class="wrapper"><canvas id="gradcanvas" class="gradient"></canvas>
       <div class="title">
-        <h1 style="font-size:58px">Karina Solorio<sup>2</sup> 
-          <h2>Frontend Web Developer</h2>
-          <br>
-          <!-- <img id="pic" src="./assets/images/imagetwo.png"></h1></div> -->
-        
+        <h1 class="animated pulse" style="font-size:65px" >Karina Solorio<sup>2</sup></h1>
+        <h2 class="animated pulse" >Frontend Web Developer</h2>
+      </div>
+          
+        <section id="mainsection" class="scroll">
+          <a href="#section2"><span></span></a>
+        </section> 
+
     </div>
 
-  <!-- <div id="main-container" class="container">
-    <section class="main-section"> -->
-      <!-- <img src="assets/images/profileimage.jpg" class="auth-image" alt="Karina"> -->
-    <!-- </section>
-    <section class="sidebar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <section id="section2">
+             <h4 style="font-size: 65px" >About Me!</h4>
+             <img src="./assets/images/photo.gif" class="pic" alt="Picture of MEEEE">
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- <section class="sidebar">
         <div id="connect">
           <h2>Connect with Me</h2>
             
@@ -56,7 +71,10 @@
     </div>
   </footer> -->
   <script type="text/javascript" src="app.js"></script>
+  <script src="https://code.jquery.com/jquery.js"></script>
   <script src="granim.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
 
 
 </body>
